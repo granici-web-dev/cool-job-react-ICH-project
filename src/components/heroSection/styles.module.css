@@ -1,3 +1,15 @@
-.heroSection {
+.hero {
   background-image: url(../../assets//img/hero_bg.jpg);
+  
 }
+
+.heroInner {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 13.5rem 2rem;
+
+  @media (max-width: 610px) {
+    padding: 3rem 1rem;
+  }
+}
+

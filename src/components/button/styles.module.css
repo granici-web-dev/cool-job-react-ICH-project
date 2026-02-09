@@ -1,0 +1,18 @@
+.button {
+  padding: 1.25rem 3rem;
+  border: none;
+  background-color: #274059;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+}
+
+.button:hover {
+  background-color: #142331;
+}

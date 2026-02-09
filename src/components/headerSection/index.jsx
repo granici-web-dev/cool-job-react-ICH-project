@@ -5,16 +5,22 @@ import Nav from './nav';
 
 function HeaderSection() {
   return (
-    <div className={styles.header}>
-      <div className={styles.headerLeft}>
-        <Logo />
-        <Nav />
-      </div>
-      <div className={styles.headerRight}>
-        <LinkBtn name={'Регистрация'} link={'#'} />
-        <LinkBtn style={{ backgroundColor: '#FFF', fontWeight: '700' }} name={'Вход'} link={'#'} />
-      </div>
-    </div>
+    <section className={styles.header}>
+      <div className={styles.headerInner}>
+          <div className={styles.headerLeft} >
+            <Logo />
+            <Nav />
+          </div>
+          <div className={styles.headerRight}>
+            <LinkBtn name={'Регистрация'} link={'#'} />
+            <LinkBtn
+              style={{ backgroundColor: '#FFF', fontWeight: '700' }}
+              name={'Вход'}
+              link={'#'}
+            />
+          </div>   
+        </div>
+    </section>
   );
 }
 
