@@ -1,9 +1,9 @@
 import styles from './styles.module.css';
-import LinkBtn from '../linkBtn';
-import Logo from '../logo';
-import Nav from '../nav';
+import LinkBtn from './linkBtn';
+import Logo from './logo';
+import Nav from './nav';
 
-function Header() {
+function HeaderSection() {
   return (
     <div className={styles.header}>
       <div className={styles.headerLeft}>
@@ -18,4 +18,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderSection;

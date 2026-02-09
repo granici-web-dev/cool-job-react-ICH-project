@@ -1,0 +1,11 @@
+.searchInput {
+  padding: 2.25rem 2.25rem 2.25rem 5rem;
+
+  background-repeat: no-repeat;
+  background-position: 2rem center;
+  background-size: 2rem;
+  /* background-image: url('../../../assets/icons/search_company.svg'); */
+
+  border: none;
+  box-shadow: 6px 5px 9px 0 rgba(0, 0, 0, 0.35);
+}

@@ -1,10 +1,12 @@
 import './App.css';
-import Header from './components/header';
+import HeaderSection from './components/headerSection';
+import HeroSection from './components/heroSection';
 
 function App() {
   return (
     <>
-      <Header />
+      <HeaderSection />
+      <HeroSection />
     </>
   );
 }

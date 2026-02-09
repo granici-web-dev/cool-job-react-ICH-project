@@ -1,4 +1,4 @@
-import LogoImg from '../../assets/logos/Cooljob_logo.svg';
+import LogoImg from '../../../assets/logos/Cooljob_logo.svg';
 
 function Logo() {
   return (
