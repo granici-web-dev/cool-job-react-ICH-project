@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 2rem;
+  background-color: #CDE7FF;
+
+  @media (max-width: 916px) {
+    padding: 1.2rem 1rem;
+  }
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.8rem;
+
+  @media (max-width: 916px) {
+    gap: 0;
+  }
+}
+
+.headerRight {
+  display: flex;
+  gap: 3.3rem;
+  @media (max-width: 916px) {
+    gap: 1.5rem;
+  }
+}

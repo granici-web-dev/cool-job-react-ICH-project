@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 3.3rem;
+  font-weight: 500;
+
+  @media (max-width: 916px) {
+    gap: 1rem;
+  }
+
+  @media (max-width: 686px) {
+    display: none;
+  }
+}
