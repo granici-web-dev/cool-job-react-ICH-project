@@ -1,0 +1,13 @@
+.logosInner {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 4.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 610px) {
+    padding: 3rem 1rem;
+  }
+}
