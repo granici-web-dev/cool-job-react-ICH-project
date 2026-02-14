@@ -1,0 +1,13 @@
+.category {
+  background-color: #E4F2FF;
+}
+
+.categoryInner {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 6.5rem 2rem;
+
+  @media (max-width: 634px) {
+    padding: 3rem 1rem;
+  }
+}

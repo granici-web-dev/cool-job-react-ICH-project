@@ -39,7 +39,7 @@ function Logos() {
     <div className={styles.logosImg}>
       {logosImg.map((logo) => {
         return (
-          <a href={logo.url} target="_blanc">
+          <a href={logo.url} target="_blanc" key={logo.title}>
             <img src={logo.src} alt={logo.title} />
           </a>
         );

@@ -1,0 +1,15 @@
+.categoryList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2.6rem;
+
+   @media (max-width: 1536px) {
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 602px) {
+    gap: 1rem;
+  }  
+}
