@@ -5,12 +5,12 @@ import CategoryList from './categoryList';
 function CategoriesSection() {
   
   return (
-    <div className={styles.category}>
+    <section className={styles.category}>
       <div className={styles.categoryInner}>
         <Headline title={'Работа по категориям'} />
         <CategoryList />
       </div>
-    </div>
+    </section>
   );
 }
 

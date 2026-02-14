@@ -4,12 +4,12 @@ import styles from './styles.module.css';
 
 function LogosSection() {
   return (
-    <div className={styles.logos}>
+    <section className={styles.logos}>
       <div className={styles.logosInner}>
         <LogosTitle title={'Помогаем найти работу:'} />
         <Logos />
       </div>
-    </div>
+    </section>
   );
 }
 

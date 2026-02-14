@@ -1,0 +1,13 @@
+.vacancies {
+  background-color: #E4F2FF;
+}
+
+.vacanciesInner {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+
+  @media (max-width: 610px) {
+    padding: 3rem 1rem;
+  }
+}

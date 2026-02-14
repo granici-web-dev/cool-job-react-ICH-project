@@ -1,0 +1,57 @@
+.vacancyCard {
+  background-color: #fff;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+  max-width: 28rem;
+  width: 100%;
+
+  @media (max-width: 976px) {
+    width: 100%;
+    gap: 1rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+.categoryColor {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50rem;
+}
+
+.categoryItem {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.categoryTitle {
+  color: #9EA1A4;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 1.35rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+
+  span {
+    color: #9EA1A4;
+  }
+}
+
+.posted {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #9EA1A4;
+}

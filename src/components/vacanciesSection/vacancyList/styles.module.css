@@ -1,0 +1,10 @@
+.vacancyList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  @media (max-width: 1426px) {
+    justify-content: flex-start;
+  }
+}
