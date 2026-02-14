@@ -1,3 +1,4 @@
+import Button from '../button';
 import Headline from '../headline';
 import HeadlineDescription from '../headlineDescription'
 import styles from './syles.module.css'
@@ -10,6 +11,9 @@ function VacanciesSection() {
         <Headline title={'Новые вакансии'} />
         <HeadlineDescription title={'Найди работу своей мечты прямо сейчас'} />
         <VacancyList />
+        <div className={styles.flexCenter}>
+          <Button title={'Все вакансии'} />
+        </div>
       </div>
     </section>
   );

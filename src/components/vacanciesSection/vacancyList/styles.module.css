@@ -3,6 +3,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-bottom: 5.5rem;
 
   @media (max-width: 1426px) {
     justify-content: flex-start;

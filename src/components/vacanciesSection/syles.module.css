@@ -11,3 +11,8 @@
     padding: 3rem 1rem;
   }
 }
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
